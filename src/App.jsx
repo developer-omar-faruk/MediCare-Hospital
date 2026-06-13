@@ -1,5 +1,7 @@
 import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
@@ -39,9 +41,9 @@ export default function App() {
             <motion.main key={activePage} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.35 }}>
               {renderPage()}
             </motion.main>
-          </AnimatePresence>
+          </AnimatePresence> */}
           <Footer setActivePage={handleSetPage} />
-          <ScrollToTop /> */}
+          <ScrollToTop />
         </>
       )}
     </div>
