@@ -6,6 +6,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 // ...............PAGES..............
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
@@ -13,7 +14,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-  const [activePage, setActivePage] = useState("home");
+  const [activePage, setActivePage] = useState("about");
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
   const handleSetPage = (page) => {

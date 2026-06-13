@@ -1,7 +1,8 @@
 import {hospitalInfo, stats, doctors, departments, testimonials, faqs,} from "../data";
+import { SectionWrapper, AnimatedCounter, fadeUp } from './UTILITIES';
 
-import { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   FiPhone, FiHeart, FiActivity, FiUsers, FiShield, FiAward,
   FiCalendar, FiArrowRight, FiChevronDown, FiStar, FiCheckCircle, FiAlertCircle,
@@ -25,40 +26,6 @@ const whyChooseUs = [
   { icon: <FiZap size={24} />, title: "Fast Service", desc: "Minimal wait times with efficient patient flow and digital queuing.", color: "text-amber-500 bg-amber-50" },
   { icon: <FiCalendar size={24} />, title: "Online Appointments", desc: "Easy online booking, reminders, and teleconsultation from home.", color: "text-teal-500 bg-teal-50" },
 ];
-
-// ─── UTILITIES ───────────────────────────────────────────────────────────────
-const fadeUp = { hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0 } };
-const fadeIn = { hidden: { opacity: 0 }, visible: { opacity: 1 } };
-const stagger = { visible: { transition: { staggerChildren: 0.1 } } };
-
-function SectionWrapper({ children, className = "" }) {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
-  return (
-    <motion.div ref={ref} initial="hidden" animate={inView ? "visible" : "hidden"} variants={stagger} className={className}>
-      {children}
-    </motion.div>
-  );
-}
-
-function AnimatedCounter({ target, suffix = "" }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-  useEffect(() => {
-    if (!inView) return;
-    let start = 0;
-    const duration = 2000;
-    const step = target / (duration / 16);
-    const timer = setInterval(() => {
-      start += step;
-      if (start >= target) { setCount(target); clearInterval(timer); }
-      else setCount(Math.floor(start));
-    }, 16);
-    return () => clearInterval(timer);
-  }, [inView, target]);
-  return <span ref={ref}>{count.toLocaleString()}{suffix}</span>;
-}
 
 
 function HomePage({ setActivePage }) {

@@ -1,6 +1,6 @@
 
 
-// ─── Nav, Footer, Home Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Nav, Footer, Home Page, About Page DATA ────────────────────────────────────────────────────────────────────
 export const hospitalInfo = {
   name: "MediCare Prime Hospital",
   tagline: "Advanced Healthcare for a Healthier Tomorrow",
@@ -37,7 +37,7 @@ export const departments = [
   { id: 10, name: "General Medicine", icon: "💊", desc: "Primary healthcare for adults covering diagnosis, treatment, and prevention of common medical conditions.", services: ["General Consultation", "Diabetes Care", "Hypertension Management", "Health Screenings", "Preventive Care"], color: "from-indigo-400 to-indigo-600" },
 ];
 
-// ─── Home Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Home Page, About Page DATA ────────────────────────────────────────────────────────────────────
 export const stats = [
   { label: "Patients Served", value: 120000, suffix: "+" },
   { label: "Expert Doctors", value: 350, suffix: "+" },
@@ -100,4 +100,20 @@ export const faqs = [
   { q: "How do I get a medical certificate?", a: "Medical certificates can be obtained from the doctor who treated you. Please submit a request at the Medical Records desk or through the Patient Portal." },
   { q: "What payment methods are accepted?", a: "We accept cash, all major credit/debit cards, bank transfers, and most insurance direct billing. EMI options are available for select procedures." },
   { q: "Is there a cafeteria for family members?", a: "Yes, our hospital cafeteria is open from 7:00 AM to 10:00 PM with healthy meal options for patients, visitors, and staff." },
+];
+
+// ─── About Page DATA ────────────────────────────────────────────────────────────────────
+export const achievements = [
+  { year: "2023", title: "Best Hospital of the Year", org: "National Healthcare Excellence Awards" },
+  { year: "2022", title: "JCI Accreditation", org: "Joint Commission International" },
+  { year: "2021", title: "Top Cardiac Care Center", org: "American Heart Association" },
+  { year: "2020", title: "Green Hospital Award", org: "Healthcare Environmental Trust" },
+  { year: "2019", title: "Patient Safety Gold Standard", org: "National Patient Safety Foundation" },
+];
+
+// ─── About Page DATA ────────────────────────────────────────────────────────────────────
+export const leadership = [
+  { name: "Dr. William Carter", role: "Chief Executive Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=William&backgroundColor=b6e3f4", bio: "25+ years in healthcare administration. Former WHO consultant." },
+  { name: "Dr. Rebecca Stone", role: "Chief Medical Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Rebecca&backgroundColor=c0aede", bio: "Renowned cardiologist and clinical researcher with 200+ publications." },
+  { name: "Mr. Daniel Park", role: "Chief Operations Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Daniel&backgroundColor=d1d4f9", bio: "Healthcare operations expert with expertise in digital transformation." },
 ];
