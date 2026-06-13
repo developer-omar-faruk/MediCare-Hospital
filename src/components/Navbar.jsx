@@ -1,14 +1,10 @@
 import { navLinks, hospitalInfo } from "../data";
 
-import { useState, useEffect, useRef, createContext, useContext } from "react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
-  FiPhone, FiMail, FiMapPin, FiClock, FiHeart, FiActivity,
-  FiUser, FiUsers, FiShield, FiAward, FiCalendar, FiArrowRight,
-  FiMenu, FiX, FiSearch, FiChevronDown, FiStar, FiCheckCircle,
-  FiAlertCircle, FiTrendingUp, FiEye, FiBriefcase, FiGlobe,
-  FiInstagram, FiTwitter, FiFacebook, FiYoutube, FiChevronUp,
-  FiMessageCircle, FiHome, FiLayers, FiZap
+  FiPhone, FiClock, FiHeart,
+  FiMenu, FiX, FiAlertCircle,
 } from "react-icons/fi";
 
 
@@ -25,7 +21,7 @@ function Navbar({ activePage, setActivePage }) {
       {/* Emergency Banner */}
       <div className="bg-red-600 text-white text-xs sm:text-sm py-1.5 px-4 flex items-center justify-center gap-4 flex-wrap">
         <span className="flex items-center gap-1.5 font-semibold"><FiAlertCircle size={14} /> Emergency Hotline:</span>
-        <a href="tel:+18009110000" className="font-bold hover:underline">{hospitalInfo.emergency}</a>
+        <a href="tel:+8801624471890" className="font-bold hover:underline">{hospitalInfo.emergency}</a>
         <span className="hidden sm:inline">|</span>
         <span className="hidden sm:flex items-center gap-1.5"><FiClock size={13} /> Available 24/7</span>
       </div>
@@ -51,7 +47,7 @@ function Navbar({ activePage, setActivePage }) {
               ))}
             </div>
             <div className="hidden lg:flex items-center gap-3">
-              <a href="tel:+18001234567" className="flex items-center gap-2 text-sm text-gray-600 hover:text-blue-600">
+              <a href="tel:+8801624471890" className="flex items-center gap-2 text-sm text-gray-600 hover:text-blue-600">
                 <FiPhone size={14} /><span>{hospitalInfo.phone}</span>
               </a>
               <motion.button whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} onClick={() => setActivePage("appointment")}

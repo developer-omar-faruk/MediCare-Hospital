@@ -1,7 +1,11 @@
+// ...............COMPONENTS..............
 import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+
+// ...............PAGES..............
+import HomePage from "./pages/HomePage";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
@@ -37,11 +41,11 @@ export default function App() {
       {!loading && (
         <>
           <Navbar activePage={activePage} setActivePage={handleSetPage} />
-          {/* <AnimatePresence mode="wait">
+          <AnimatePresence mode="wait">
             <motion.main key={activePage} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.35 }}>
               {renderPage()}
             </motion.main>
-          </AnimatePresence> */}
+          </AnimatePresence>
           <Footer setActivePage={handleSetPage} />
           <ScrollToTop />
         </>

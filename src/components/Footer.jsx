@@ -1,14 +1,9 @@
-import {hospitalInfo, navLinks, departments} from '../data'
+import { hospitalInfo, navLinks, departments } from "../data";
 
-import { useState, useEffect, useRef, createContext, useContext } from "react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
 import {
-  FiPhone, FiMail, FiMapPin, FiClock, FiHeart, FiActivity,
-  FiUser, FiUsers, FiShield, FiAward, FiCalendar, FiArrowRight,
-  FiMenu, FiX, FiSearch, FiChevronDown, FiStar, FiCheckCircle,
-  FiAlertCircle, FiTrendingUp, FiEye, FiBriefcase, FiGlobe,
-  FiInstagram, FiTwitter, FiFacebook, FiYoutube, FiChevronUp,
-  FiMessageCircle, FiHome, FiLayers, FiZap
+  FiPhone, FiMail, FiMapPin, FiClock,
+  FiHeart, FiArrowRight, FiAlertCircle, FiInstagram,
+  FiTwitter, FiFacebook, FiYoutube,
 } from "react-icons/fi";
 
 
