@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import DoctorsPage from "./pages/DoctorsPage";
 import DoctorDetailPage from "./pages/DoctorDetailPage";
+import DepartmentsPage from "./pages/DepartmentsPage";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
