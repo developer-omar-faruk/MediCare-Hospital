@@ -7,7 +7,7 @@ export const hospitalInfo = {
   phone: "+880 1624-471890",
   emergency: "+880 1624-471890",
   email: "info@medicareprime.com",
-  address: "1247 Healthcare Blvd, Medical District, NY 10001",
+  address: "Medical Road, Chandpur District, NY 10001",
   hours: "Mon–Sat: 8:00 AM – 8:00 PM | Emergency: 24/7",
   founded: 1995,
 };
@@ -45,7 +45,7 @@ export const stats = [
   { label: "Years of Excellence", value: 29, suffix: "+" },
 ];
 
-// ─── Home Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Home Page, Doctors Page DATA ────────────────────────────────────────────────────────────────────
 export const doctors = [
   { id: 1, name: "Dr. Sarah Mitchell", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, FACC", experience: 18, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Sarah&backgroundColor=b6e3f4" },
   { id: 2, name: "Dr. James Thornton", specialty: "Neurology", dept: "Neurology", qualification: "MD, PhD", experience: 22, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 289, image: "https://api.dicebear.com/7.x/personas/svg?seed=James&backgroundColor=c0aede" },
