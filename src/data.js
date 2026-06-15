@@ -69,7 +69,7 @@ export const doctors = [
   { id: 20, name: "Dr. Omar Diallo", specialty: "Dentistry", dept: "Dentistry", qualification: "BDS, MDS Prosth.", experience: 8, availability: "Tue, Thu, Sat", rating: 4.7, reviews: 189, image: "https://api.dicebear.com/7.x/personas/svg?seed=Omar&backgroundColor=ffd5dc" },
 ];
 
-// ─── Home Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Home Page, DoctorDetail Page DATA ────────────────────────────────────────────────────────────────────
 export const testimonials = [
   { id: 1, name: "Margaret Thompson", role: "Cardiac Patient", rating: 5, text: "Dr. Mitchell saved my life. The cardiology team at MediCare Prime is exceptional. From the moment I arrived, I felt cared for. The facilities are world-class and the staff is incredibly compassionate.", avatar: "https://api.dicebear.com/7.x/personas/svg?seed=Margaret&backgroundColor=b6e3f4" },
   { id: 2, name: "Kevin Lawson", role: "Orthopedic Patient", rating: 5, text: "After my knee replacement surgery, I was back on my feet in record time. Dr. Chen and his team were brilliant throughout the entire process. Best hospital I've ever been to.", avatar: "https://api.dicebear.com/7.x/personas/svg?seed=Kevin&backgroundColor=c0aede" },
