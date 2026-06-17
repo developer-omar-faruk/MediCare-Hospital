@@ -28,7 +28,7 @@ export const navLinks = [
   { label: "Contact", path: "contact" },
 ];
 
-// ─── Footer, Home Page, Departments Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Footer, Home Page, Departments Page, Appointment Page DATA ───────────────────────────────────────
 export const departments = [
   { id: 1, name: "Cardiology", icon: "❤️", desc: "Comprehensive cardiac care including diagnostics, interventional procedures, and rehabilitation for all heart conditions.", services: ["ECG & Echocardiography", "Angioplasty", "Heart Surgery", "Cardiac Rehabilitation", "Pacemaker Implantation"], color: "from-red-400 to-red-600" },
   { id: 2, name: "Neurology", icon: "🧠", desc: "Expert diagnosis and treatment of neurological disorders affecting the brain, spinal cord, and nervous system.", services: ["MRI & CT Scans", "EEG Testing", "Stroke Management", "Epilepsy Treatment", "Parkinson's Care"], color: "from-purple-400 to-purple-600" },
@@ -50,7 +50,7 @@ export const stats = [
   { label: "Years of Excellence", value: 29, suffix: "+" },
 ];
 
-// ─── Home Page, Doctors Page, Departments Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Home Page, Doctors Page, Departments Page, Appointment Page DATA ─────────────────────────────────
 export const doctors = [
   { id: 1, name: "Dr. Sarah Mitchell", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, FACC", experience: 18, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Sarah&backgroundColor=b6e3f4" },
   { id: 2, name: "Dr. James Thornton", specialty: "Neurology", dept: "Neurology", qualification: "MD, PhD", experience: 22, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 289, image: "https://api.dicebear.com/7.x/personas/svg?seed=James&backgroundColor=c0aede" },
