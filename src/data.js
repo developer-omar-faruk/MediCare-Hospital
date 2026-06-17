@@ -1,3 +1,8 @@
+import {
+    FiAlertCircle, FiActivity, FiZap, FiTrendingUp, FiPhone, FiShield,
+    FiEye, FiCheckCircle, FiBriefcase, FiHeart, FiUser, FiGlobe,
+    FiHome
+} from "react-icons/fi";
 
 
 // ─── Nav, Footer, Home Page, About Page DATA ────────────────────────────────────────────────────────────────────
@@ -116,4 +121,23 @@ export const leadership = [
   { name: "Dr. William Carter", role: "Chief Executive Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=William&backgroundColor=b6e3f4", bio: "25+ years in healthcare administration. Former WHO consultant." },
   { name: "Dr. Rebecca Stone", role: "Chief Medical Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Rebecca&backgroundColor=c0aede", bio: "Renowned cardiologist and clinical researcher with 200+ publications." },
   { name: "Mr. Daniel Park", role: "Chief Operations Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Daniel&backgroundColor=d1d4f9", bio: "Healthcare operations expert with expertise in digital transformation." },
+];
+
+// ─── Service Page DATA ────────────────────────────────────────────────────────────────────
+export const services = [
+  { id: 1, name: "Emergency Care", icon: FiAlertCircle , desc: "Round-the-clock emergency medical services with a dedicated trauma team and fully equipped ER.", color: "bg-red-50 border-red-100", iconBg: "bg-red-100 text-red-600" },
+  { id: 2, name: "ICU & Critical Care", icon: FiActivity , desc: "State-of-the-art intensive care units with continuous monitoring and expert critical care physicians.", color: "bg-blue-50 border-blue-100", iconBg: "bg-blue-100 text-blue-600" },
+  { id: 3, name: "Advanced Surgery", icon: FiZap , desc: "Minimally invasive and robotic surgeries performed by highly skilled surgeons across all specialties.", color: "bg-purple-50 border-purple-100", iconBg: "bg-purple-100 text-purple-600" },
+  { id: 4, name: "Laboratory Services", icon: FiTrendingUp , desc: "Comprehensive pathology lab with NABL accreditation offering 2000+ diagnostic tests.", color: "bg-green-50 border-green-100", iconBg: "bg-green-100 text-green-600" },
+  { id: 5, name: "Ambulance Service", icon: FiPhone , desc: "24/7 ambulance services with advanced life support equipment and trained paramedics.", color: "bg-amber-50 border-amber-100", iconBg: "bg-amber-100 text-amber-600" },
+  { id: 6, name: "Vaccination Program", icon: FiShield , desc: "Comprehensive vaccination services for all age groups including travel vaccines.", color: "bg-teal-50 border-teal-100", iconBg: "bg-teal-100 text-teal-600" },
+  { id: 7, name: "Diagnostic Imaging", icon: FiEye , desc: "Advanced imaging including MRI, CT Scan, PET Scan, X-Ray, Ultrasound, and Mammography.", color: "bg-cyan-50 border-cyan-100", iconBg: "bg-cyan-100 text-cyan-600" },
+  { id: 8, name: "Health Checkup Packages", icon: FiCheckCircle, desc: "Customized health checkup packages for individuals, corporates, and senior citizens.", color: "bg-pink-50 border-pink-100", iconBg: "bg-pink-100 text-pink-600" },
+  { id: 9, name: "Pharmacy", icon: FiBriefcase , desc: "24/7 in-hospital pharmacy stocked with all essential medicines and healthcare products.", color: "bg-indigo-50 border-indigo-100", iconBg: "bg-indigo-100 text-indigo-600" },
+  { id: 10, name: "Physiotherapy", icon: FiActivity , desc: "Expert physiotherapy and rehabilitation services for post-surgical and injury recovery.", color: "bg-orange-50 border-orange-100", iconBg: "bg-orange-100 text-orange-600" },
+  { id: 11, name: "Nutrition & Dietetics", icon: FiHeart , desc: "Personalized diet plans and nutrition counseling for chronic disease management.", color: "bg-lime-50 border-lime-100", iconBg: "bg-lime-100 text-lime-600" },
+  { id: 12, name: "Mental Health", icon: FiUser , desc: "Compassionate mental health services including psychiatry, psychology, and counseling.", color: "bg-violet-50 border-violet-100", iconBg: "bg-violet-100 text-violet-600" },
+  { id: 13, name: "Blood Bank", icon: FiHeart , desc: "Fully equipped blood bank with modern cross-matching and component preparation facilities.", color: "bg-red-50 border-red-100", iconBg: "bg-red-100 text-red-600" },
+  { id: 14, name: "Telemedicine", icon: FiGlobe , desc: "Online consultations with specialists from the comfort of your home via secure video calls.", color: "bg-sky-50 border-sky-100", iconBg: "bg-sky-100 text-sky-600" },
+  { id: 15, name: "Home Healthcare", icon: FiHome , desc: "Skilled nursing, post-op care, and chronic disease management in the comfort of your home.", color: "bg-emerald-50 border-emerald-100", iconBg: "bg-emerald-100 text-emerald-600" },
 ];

@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import DoctorsPage from "./pages/DoctorsPage";
 import DoctorDetailPage from "./pages/DoctorDetailPage";
 import DepartmentsPage from "./pages/DepartmentsPage";
+import ServicesPage from "./pages/ServicesPage";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
@@ -17,7 +18,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-  const [activePage, setActivePage] = useState("home");
+  const [activePage, setActivePage] = useState("services");
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
   const handleSetPage = (page) => {
