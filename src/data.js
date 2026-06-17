@@ -5,7 +5,7 @@ import {
 } from "react-icons/fi";
 
 
-// ─── Nav, Footer, Home Page, About Page DATA ────────────────────────────────────────────────────────────────────
+// ─── Nav, Footer, Home Page, About Page, Contact Page DATA ────────────────────────────────────────────────────────────────────
 export const hospitalInfo = {
   name: "MediCare Prime Hospital",
   tagline: "Advanced Healthcare for a Healthier Tomorrow",

@@ -12,6 +12,7 @@ import DoctorDetailPage from "./pages/DoctorDetailPage";
 import DepartmentsPage from "./pages/DepartmentsPage";
 import ServicesPage from "./pages/ServicesPage";
 import AppointmentPage from "./pages/AppointmentPage";
+import ContactPage from "./pages/ContactPage";
 
 import { useState, useEffect, useRef, createContext, useContext } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
@@ -19,7 +20,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-  const [activePage, setActivePage] = useState("appointment");
+  const [activePage, setActivePage] = useState("contact");
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
   const handleSetPage = (page) => {
