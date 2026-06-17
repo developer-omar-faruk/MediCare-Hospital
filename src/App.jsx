@@ -20,7 +20,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-  const [activePage, setActivePage] = useState("contact");
+  const [activePage, setActivePage] = useState("home");
   const [selectedDoctor, setSelectedDoctor] = useState(null);
 
   const handleSetPage = (page) => {
