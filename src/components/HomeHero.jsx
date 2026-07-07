@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { FiPhone, FiActivity, FiUsers, FiShield, FiAward, FiCalendar } from "react-icons/fi";
 
 
-function HomeHero() {
+function HomeHero({setActivePage}) {
   return (
     <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-gradient-to-br from-blue-950 via-blue-800 to-blue-600">
         <div className="absolute inset-0">
