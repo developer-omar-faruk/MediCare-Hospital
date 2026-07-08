@@ -118,9 +118,9 @@ export const achievements = [
 
 // ─── About Page DATA ────────────────────────────────────────────────────────────────────
 export const leadership = [
-  { name: "Dr. William Carter", role: "Chief Executive Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=William&backgroundColor=b6e3f4", bio: "25+ years in healthcare administration. Former WHO consultant." },
-  { name: "Dr. Rebecca Stone", role: "Chief Medical Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Rebecca&backgroundColor=c0aede", bio: "Renowned cardiologist and clinical researcher with 200+ publications." },
-  { name: "Mr. Daniel Park", role: "Chief Operations Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Daniel&backgroundColor=d1d4f9", bio: "Healthcare operations expert with expertise in digital transformation." },
+  { name: "Dr. Md. Omar Faruk", role: "Chief Executive Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=William&backgroundColor=b6e3f4", bio: "25+ years in healthcare administration. Former WHO consultant." },
+  { name: "Dr. Jannatul Nayeem", role: "Chief Medical Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Rebecca&backgroundColor=c0aede", bio: "Renowned cardiologist and clinical researcher with 200+ publications." },
+  { name: "Mr. Najmul Hasan", role: "Chief Operations Officer", image: "https://api.dicebear.com/7.x/personas/svg?seed=Daniel&backgroundColor=d1d4f9", bio: "Healthcare operations expert with expertise in digital transformation." },
 ];
 
 // ─── Service Page DATA ────────────────────────────────────────────────────────────────────
