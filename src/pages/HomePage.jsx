@@ -57,7 +57,7 @@ function HomePage({ setActivePage }) {
               {faqs.slice(0, 8).map((faq, i) => (
                 <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
                   <button onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-blue-50 transition-colors">
+                    className="w-full cursor-pointer flex items-center justify-between p-5 text-left hover:bg-blue-50 transition-colors">
                     <span className="font-semibold text-gray-800 pr-4">{faq.q}</span>
                     <motion.span animate={{ rotate: openFaq === i ? 180 : 0 }} transition={{ duration: 0.25 }}>
                       <FiChevronDown className="text-blue-500 shrink-0" size={20} />

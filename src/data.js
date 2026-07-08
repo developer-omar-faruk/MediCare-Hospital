@@ -12,7 +12,7 @@ export const hospitalInfo = {
   phone: "+880 1624-471890",
   emergency: "+880 1624-471890",
   email: "info@medicareprime.com",
-  address: "Medical Road, Chandpur District, NY 10001",
+  address: "Medical Road, Chandpur District, BD 3600",
   hours: "Mon–Sat: 8:00 AM – 8:00 PM | Emergency: 24/7",
   founded: 1995,
 };
@@ -52,26 +52,26 @@ export const stats = [
 
 // ─── Home Page, Doctors Page, Departments Page, Appointment Page DATA ─────────────────────────────────
 export const doctors = [
-  { id: 1, name: "Dr. Sarah Mitchell", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, FACC", experience: 18, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Sarah&backgroundColor=b6e3f4" },
-  { id: 2, name: "Dr. James Thornton", specialty: "Neurology", dept: "Neurology", qualification: "MD, PhD", experience: 22, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 289, image: "https://api.dicebear.com/7.x/personas/svg?seed=James&backgroundColor=c0aede" },
-  { id: 3, name: "Dr. Priya Sharma", specialty: "Pediatrics", dept: "Pediatrics", qualification: "MBBS, DCH", experience: 14, availability: "Mon–Fri", rating: 4.9, reviews: 421, image: "https://api.dicebear.com/7.x/personas/svg?seed=Priya&backgroundColor=d1d4f9" },
-  { id: 4, name: "Dr. Robert Chen", specialty: "Orthopedics", dept: "Orthopedics", qualification: "MD, MS Ortho", experience: 20, availability: "Mon, Tue, Thu", rating: 4.7, reviews: 198, image: "https://api.dicebear.com/7.x/personas/svg?seed=Robert&backgroundColor=ffd5dc" },
-  { id: 5, name: "Dr. Emily Watson", specialty: "Dermatology", dept: "Dermatology", qualification: "MD, FRCP", experience: 12, availability: "Wed, Fri, Sat", rating: 4.8, reviews: 267, image: "https://api.dicebear.com/7.x/personas/svg?seed=Emily&backgroundColor=b6e3f4" },
-  { id: 6, name: "Dr. Michael Adeyemi", specialty: "Oncology", dept: "Oncology", qualification: "MD, DM Oncology", experience: 25, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 345, image: "https://api.dicebear.com/7.x/personas/svg?seed=Michael&backgroundColor=c0aede" },
-  { id: 7, name: "Dr. Aisha Patel", specialty: "Gynecology", dept: "Gynecology", qualification: "MBBS, MS OBG", experience: 16, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 389, image: "https://api.dicebear.com/7.x/personas/svg?seed=Aisha&backgroundColor=d1d4f9" },
-  { id: 8, name: "Dr. Lucas Rodriguez", specialty: "General Medicine", dept: "General Medicine", qualification: "MD, MRCP", experience: 10, availability: "Mon–Sat", rating: 4.6, reviews: 156, image: "https://api.dicebear.com/7.x/personas/svg?seed=Lucas&backgroundColor=ffd5dc" },
-  { id: 9, name: "Dr. Nina Johansson", specialty: "Ophthalmology", dept: "Ophthalmology", qualification: "MS Ophthalmology", experience: 13, availability: "Mon, Wed, Sat", rating: 4.7, reviews: 203, image: "https://api.dicebear.com/7.x/personas/svg?seed=Nina&backgroundColor=b6e3f4" },
-  { id: 10, name: "Dr. David Kim", specialty: "Dentistry", dept: "Dentistry", qualification: "BDS, MDS", experience: 11, availability: "Tue, Thu, Fri", rating: 4.8, reviews: 274, image: "https://api.dicebear.com/7.x/personas/svg?seed=David&backgroundColor=c0aede" },
-  { id: 11, name: "Dr. Fatima Al-Hassan", specialty: "Neurology", dept: "Neurology", qualification: "MD, DM Neurology", experience: 19, availability: "Mon, Tue, Fri", rating: 4.9, reviews: 301, image: "https://api.dicebear.com/7.x/personas/svg?seed=Fatima&backgroundColor=d1d4f9" },
-  { id: 12, name: "Dr. Thomas Blake", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, DNB Cardio", experience: 21, availability: "Wed, Thu, Sat", rating: 4.7, reviews: 187, image: "https://api.dicebear.com/7.x/personas/svg?seed=Thomas&backgroundColor=ffd5dc" },
-  { id: 13, name: "Dr. Mei Lin Zhang", specialty: "Pediatrics", dept: "Pediatrics", qualification: "MD, FCPS", experience: 9, availability: "Mon–Fri", rating: 4.8, reviews: 356, image: "https://api.dicebear.com/7.x/personas/svg?seed=MeiLin&backgroundColor=b6e3f4" },
-  { id: 14, name: "Dr. Carlos Mendez", specialty: "Orthopedics", dept: "Orthopedics", qualification: "MS Ortho, DNB", experience: 17, availability: "Tue, Wed, Sat", rating: 4.6, reviews: 142, image: "https://api.dicebear.com/7.x/personas/svg?seed=Carlos&backgroundColor=c0aede" },
-  { id: 15, name: "Dr. Ingrid Larsson", specialty: "Dermatology", dept: "Dermatology", qualification: "MD, DVL", experience: 15, availability: "Mon, Thu, Fri", rating: 4.9, reviews: 298, image: "https://api.dicebear.com/7.x/personas/svg?seed=Ingrid&backgroundColor=d1d4f9" },
-  { id: 16, name: "Dr. Samuel Okafor", specialty: "Oncology", dept: "Oncology", qualification: "MBBS, MD Oncology", experience: 23, availability: "Mon, Wed, Fri", rating: 4.8, reviews: 267, image: "https://api.dicebear.com/7.x/personas/svg?seed=Samuel&backgroundColor=ffd5dc" },
-  { id: 17, name: "Dr. Leila Hosseini", specialty: "Gynecology", dept: "Gynecology", qualification: "MD, MRCOG", experience: 18, availability: "Tue, Thu, Sat", rating: 4.7, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Leila&backgroundColor=b6e3f4" },
-  { id: 18, name: "Dr. Andrew Fisher", specialty: "General Medicine", dept: "General Medicine", qualification: "MD, FRCS", experience: 14, availability: "Mon–Sat", rating: 4.6, reviews: 178, image: "https://api.dicebear.com/7.x/personas/svg?seed=Andrew&backgroundColor=c0aede" },
-  { id: 19, name: "Dr. Yuki Tanaka", specialty: "Ophthalmology", dept: "Ophthalmology", qualification: "DNB Ophthalmology", experience: 10, availability: "Mon, Wed, Fri", rating: 4.8, reviews: 221, image: "https://api.dicebear.com/7.x/personas/svg?seed=Yuki&backgroundColor=d1d4f9" },
-  { id: 20, name: "Dr. Omar Diallo", specialty: "Dentistry", dept: "Dentistry", qualification: "BDS, MDS Prosth.", experience: 8, availability: "Tue, Thu, Sat", rating: 4.7, reviews: 189, image: "https://api.dicebear.com/7.x/personas/svg?seed=Omar&backgroundColor=ffd5dc" },
+  { id: 1, name: "Dr. Omar Faruk", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, FACC", experience: 18, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Sarah&backgroundColor=b6e3f4" },
+  { id: 2, name: "Dr. Abdur Rahim", specialty: "Neurology", dept: "Neurology", qualification: "MD, PhD", experience: 22, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 289, image: "https://api.dicebear.com/7.x/personas/svg?seed=James&backgroundColor=c0aede" },
+  { id: 3, name: "Dr. Md Hasan", specialty: "Pediatrics", dept: "Pediatrics", qualification: "MBBS, DCH", experience: 14, availability: "Mon–Fri", rating: 4.9, reviews: 421, image: "https://api.dicebear.com/7.x/personas/svg?seed=Priya&backgroundColor=d1d4f9" },
+  { id: 4, name: "Dr. Rakib Hossain", specialty: "Orthopedics", dept: "Orthopedics", qualification: "MD, MS Ortho", experience: 20, availability: "Mon, Tue, Thu", rating: 4.7, reviews: 198, image: "https://api.dicebear.com/7.x/personas/svg?seed=Robert&backgroundColor=ffd5dc" },
+  { id: 5, name: "Dr. Tanvir Ahmed", specialty: "Dermatology", dept: "Dermatology", qualification: "MD, FRCP", experience: 12, availability: "Wed, Fri, Sat", rating: 4.8, reviews: 267, image: "https://api.dicebear.com/7.x/personas/svg?seed=Emily&backgroundColor=b6e3f4" },
+  { id: 6, name: "Dr. Dibbya Biswas", specialty: "Oncology", dept: "Oncology", qualification: "MD, DM Oncology", experience: 25, availability: "Mon, Wed, Fri", rating: 4.9, reviews: 345, image: "https://api.dicebear.com/7.x/personas/svg?seed=Michael&backgroundColor=c0aede" },
+  { id: 7, name: "Dr. Mehedi Hasan", specialty: "Gynecology", dept: "Gynecology", qualification: "MBBS, MS OBG", experience: 16, availability: "Tue, Thu, Sat", rating: 4.8, reviews: 389, image: "https://api.dicebear.com/7.x/personas/svg?seed=Aisha&backgroundColor=d1d4f9" },
+  { id: 8, name: "Dr. Shakil Ahmed", specialty: "General Medicine", dept: "General Medicine", qualification: "MD, MRCP", experience: 10, availability: "Mon–Sat", rating: 4.6, reviews: 156, image: "https://api.dicebear.com/7.x/personas/svg?seed=Lucas&backgroundColor=ffd5dc" },
+  { id: 9, name: "Dr. Mahmud Hasan", specialty: "Ophthalmology", dept: "Ophthalmology", qualification: "MS Ophthalmology", experience: 13, availability: "Mon, Wed, Sat", rating: 4.7, reviews: 203, image: "https://api.dicebear.com/7.x/personas/svg?seed=Nina&backgroundColor=b6e3f4" },
+  { id: 10, name: "Dr. Imran Hossain", specialty: "Dentistry", dept: "Dentistry", qualification: "BDS, MDS", experience: 11, availability: "Tue, Thu, Fri", rating: 4.8, reviews: 274, image: "https://api.dicebear.com/7.x/personas/svg?seed=David&backgroundColor=c0aede" },
+  { id: 11, name: "Dr. Arif Islam", specialty: "Neurology", dept: "Neurology", qualification: "MD, DM Neurology", experience: 19, availability: "Mon, Tue, Fri", rating: 4.9, reviews: 301, image: "https://api.dicebear.com/7.x/personas/svg?seed=Fatima&backgroundColor=d1d4f9" },
+  { id: 12, name: "Dr. Saif Rahman", specialty: "Cardiology", dept: "Cardiology", qualification: "MD, DNB Cardio", experience: 21, availability: "Wed, Thu, Sat", rating: 4.7, reviews: 187, image: "https://api.dicebear.com/7.x/personas/svg?seed=Thomas&backgroundColor=ffd5dc" },
+  { id: 13, name: "Dr. Mei Jannatul Nayem", specialty: "Pediatrics", dept: "Pediatrics", qualification: "MD, FCPS", experience: 9, availability: "Mon–Fri", rating: 4.8, reviews: 356, image: "https://api.dicebear.com/7.x/personas/svg?seed=MeiLin&backgroundColor=b6e3f4" },
+  { id: 14, name: "Dr. Asif Mahmud", specialty: "Orthopedics", dept: "Orthopedics", qualification: "MS Ortho, DNB", experience: 17, availability: "Tue, Wed, Sat", rating: 4.6, reviews: 142, image: "https://api.dicebear.com/7.x/personas/svg?seed=Carlos&backgroundColor=c0aede" },
+  { id: 15, name: "Dr. Sabbir Ahmed", specialty: "Dermatology", dept: "Dermatology", qualification: "MD, DVL", experience: 15, availability: "Mon, Thu, Fri", rating: 4.9, reviews: 298, image: "https://api.dicebear.com/7.x/personas/svg?seed=Ingrid&backgroundColor=d1d4f9" },
+  { id: 16, name: "Dr. Farhan Islam", specialty: "Oncology", dept: "Oncology", qualification: "MBBS, MD Oncology", experience: 23, availability: "Mon, Wed, Fri", rating: 4.8, reviews: 267, image: "https://api.dicebear.com/7.x/personas/svg?seed=Samuel&backgroundColor=ffd5dc" },
+  { id: 17, name: "Dr. Raihan Kabir", specialty: "Gynecology", dept: "Gynecology", qualification: "MD, MRCOG", experience: 18, availability: "Tue, Thu, Sat", rating: 4.7, reviews: 312, image: "https://api.dicebear.com/7.x/personas/svg?seed=Leila&backgroundColor=b6e3f4" },
+  { id: 18, name: "Dr. Mahin Chowdhury", specialty: "General Medicine", dept: "General Medicine", qualification: "MD, FRCS", experience: 14, availability: "Mon–Sat", rating: 4.6, reviews: 178, image: "https://api.dicebear.com/7.x/personas/svg?seed=Andrew&backgroundColor=c0aede" },
+  { id: 19, name: "Dr. Jamil Hossain", specialty: "Ophthalmology", dept: "Ophthalmology", qualification: "DNB Ophthalmology", experience: 10, availability: "Mon, Wed, Fri", rating: 4.8, reviews: 221, image: "https://api.dicebear.com/7.x/personas/svg?seed=Yuki&backgroundColor=d1d4f9" },
+  { id: 20, name: "Dr. Fahim Ahmed", specialty: "Dentistry", dept: "Dentistry", qualification: "BDS, MDS Prosth.", experience: 8, availability: "Tue, Thu, Sat", rating: 4.7, reviews: 189, image: "https://api.dicebear.com/7.x/personas/svg?seed=Omar&backgroundColor=ffd5dc" },
 ];
 
 // ─── Home Page, DoctorDetail Page DATA ────────────────────────────────────────────────────────────────────
@@ -90,7 +90,7 @@ export const testimonials = [
 
 // ─── Home Page DATA ────────────────────────────────────────────────────────────────────
 export const faqs = [
-  { q: "How do I book an appointment?", a: "You can book an appointment through our website's Appointment page, call our helpline at +1 (800) 123-4567, or visit the hospital reception in person." },
+  { q: "How do I book an appointment?", a: "You can book an appointment through our website's Appointment page, call our helpline at +880 1624-471890, or visit the hospital reception in person." },
   { q: "What are the hospital visiting hours?", a: "General visiting hours are 10:00 AM – 12:00 PM and 4:00 PM – 7:00 PM. ICU visits are restricted to specific times. Please check with the nursing station." },
   { q: "Does the hospital accept insurance?", a: "Yes, we accept all major insurance plans including Medicare, Medicaid, BlueCross, Aetna, and many more. Please contact our billing department for specific plan information." },
   { q: "Is emergency care available 24/7?", a: "Absolutely. Our Emergency Department is open 24 hours a day, 7 days a week, 365 days a year with a dedicated trauma team always on standby." },

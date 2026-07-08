@@ -112,7 +112,7 @@ function ContactPage() {
             <div className="mt-6 bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
               <div className="h-56 bg-gradient-to-br from-blue-100 to-blue-200 flex flex-col items-center justify-center gap-2 text-blue-400">
                 <FiMapPin size={40} />
-                <span className="font-semibold">Medical Road, Chandpur District, NY 10001</span>
+                <span className="font-semibold">Medical Road, Chandpur District, BD 3600</span>
                 <span className="text-sm text-blue-300">Google Maps Placeholder</span>
               </div>
             </div>
